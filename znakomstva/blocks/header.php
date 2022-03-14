@@ -22,7 +22,7 @@ session_start();
                 if(isset($_SESSION['id_user'])):
                 ?>
                 <ul>
-                    <li><a href="">Мои друзья</a></li>
+<!--                     <li><a href="">Мои друзья</a></li> -->
                     <li><a href="">Личный кабинет</a></li>
                     <li><a href="php/exit.php">Выход</a></li>
                 </ul> 
