@@ -16,7 +16,7 @@ session_start();
     <div class="container">
         <div class="header__inner">
 
-            <h1 class="logo"><a href="index.php" class="logo">znakomstva</a> </h1>
+             <h1 class="logo"><a href="index.php" class="logo"> <img src="img/logo.png"  height="80" width="80px" alt=""></a> </h1>
             <div class="menu">
                 <?php
                 if(isset($_SESSION['id_user'])):
