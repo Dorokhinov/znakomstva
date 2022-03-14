@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('#sign').click(function(){
+        $('#sign_popup').addClass('activeform');
+    })
+    $('.popup__close').click(function(){
+        $('#sign_popup').removeClass('activeform');
+        $('#reg_popup').removeClass('activeform');
+    })
+})
