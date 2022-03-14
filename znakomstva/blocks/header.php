@@ -9,14 +9,14 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>BIBABOBA</title>
+    <title>znakomstva</title>
 </head>
 <body>
 <header>
     <div class="container">
         <div class="header__inner">
 
-            <h1 class="logo"><a href="index.php" class="logo">BIBABOBA</a> </h1>
+            <h1 class="logo"><a href="index.php" class="logo">znakomstva</a> </h1>
             <div class="menu">
                 <?php
                 if(isset($_SESSION['id_user'])):
