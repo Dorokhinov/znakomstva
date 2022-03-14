@@ -1,5 +1,5 @@
 <?php
-$mysql = new mysqli('bibaboba', 'root', '', 'bibaboba');
+$mysql = new mysqli('znakomstva', 'root', '', 'znakomstva');
 if ($mysqli->connect_error) {
     die('Ошибка подключения (' . $mysqli->connect_errno . ') '
      . $mysqli->connect_error);
